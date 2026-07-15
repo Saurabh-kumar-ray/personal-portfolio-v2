@@ -1,0 +1,99 @@
+/* Themes & Visual Accents Styling */
+
+/* Theme Toggle Button Widget */
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--border-radius-circle);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--card-border);
+  transition: all var(--transition-fast);
+}
+
+.theme-toggle-btn:hover {
+  color: var(--accent-primary);
+  background-color: var(--input-border);
+  transform: scale(1.05);
+}
+
+.theme-toggle-btn .fa-sun {
+  display: none;
+}
+
+[data-theme="dark"] .theme-toggle-btn .fa-moon {
+  display: none;
+}
+
+[data-theme="dark"] .theme-toggle-btn .fa-sun {
+  display: block;
+}
+
+/* Premium Background Glowing Neon Blobs (Ambient Lights) */
+.ambient-glows {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.glow-blob {
+  position: absolute;
+  border-radius: var(--border-radius-circle);
+  filter: blur(120px);
+  -webkit-filter: blur(120px);
+  opacity: 0.08;
+  mix-blend-mode: plus-lighter;
+  transition: opacity var(--transition-slow);
+}
+
+[data-theme="dark"] .glow-blob {
+  opacity: 0.15;
+}
+
+.glow-blob-1 {
+  top: 5%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, var(--accent-primary) 0%, transparent 70%);
+}
+
+.glow-blob-2 {
+  top: 45%;
+  left: -15%;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, var(--accent-secondary) 0%, transparent 70%);
+}
+
+.glow-blob-3 {
+  bottom: 5%;
+  right: -5%;
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle, var(--accent-primary) 0%, transparent 70%);
+}
+
+/* Theme transition disable block (to prevent flash during state loading) */
+.theme-transition-disabled,
+.theme-transition-disabled * {
+  transition: none !important;
+}
+
+/* Accent element subtle color overlays */
+.text-gradient {
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

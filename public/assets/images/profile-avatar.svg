@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2" />
+      <stop offset="100%" stop-color="#4a00e0" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <drop-shadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#avatarGrad)" filter="url(#shadow)" />
+  
+  <!-- Outer glowing ring -->
+  <circle cx="100" cy="100" r="94" fill="none" stroke="#a259ff" stroke-width="2" opacity="0.6"/>
+
+  <!-- Code/Tech visual symbols -->
+  <path d="M 50,110 L 30,100 L 50,90" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M 150,90 L 170,100 L 150,110" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M 115,70 L 85,130" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Developer head and shoulders silouette (stylized) -->
+  <circle cx="100" cy="95" r="28" fill="#ffffff" opacity="0.95" />
+  <path d="M 60,152 C 60,132 78,128 100,128 C 122,128 140,132 140,152 C 140,158 135,164 125,164 L 75,164 C 65,164 60,158 60,152 Z" fill="#ffffff" opacity="0.95" />
+</svg>

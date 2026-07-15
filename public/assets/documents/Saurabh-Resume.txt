@@ -1,0 +1,298 @@
+SAURABH KUMAR RAY
+
+Aspiring Software Engineer
+
+Phone:
+6200116841
+
+Email:
+raysaurabh89867@gmail.com
+
+LinkedIn:
+(https://www.linkedin.com/in/saurabh-kumar-ray-47bab1321)
+
+GitHub:
+(https://github.com/Saurabh-kumar-ray)
+
+------------------------------------------------------------
+
+PROFESSIONAL SUMMARY
+
+Entry-Level Software Engineer and B.Tech Computer Science student with a strong foundation in software development, object-oriented programming, and data structures & algorithms. Passionate about building scalable applications, solving real-world problems, and continuously learning modern technologies.
+
+Hands-on experience in frontend and full-stack development through internships and academic projects. Skilled in developing responsive web applications, REST APIs, database integration, version control using Git & GitHub, and collaborative software development.
+
+Currently focused on strengthening Full Stack Development, Artificial Intelligence, Machine Learning, and Software Engineering practices while preparing for Software Engineering opportunities.
+
+------------------------------------------------------------
+
+CAREER OBJECTIVE
+
+To begin my career as a Software Engineer where I can contribute to real-world software products, continuously improve my technical skills, solve challenging engineering problems, and grow into a professional full-stack software engineer while delivering high-quality software solutions.
+
+------------------------------------------------------------
+
+EDUCATION
+
+Bachelor of Technology (B.Tech)
+Computer Science & Engineering
+
+Dr. Akhilesh Das Gupta Institute of Professional Studies
+Delhi, India
+
+Duration:
+August 2024 – June 2027
+
+Current CGPA:
+8.83 / 10
+
+Relevant Coursework
+
+• Data Structures & Algorithms
+• Object-Oriented Programming
+• Database Management Systems
+• Operating Systems
+• Software Engineering
+• Artificial Intelligence
+
+------------------------------------------------------------
+
+Diploma
+
+Computer Science & Engineering
+
+Jharkhand University of Technology (JUT)
+
+Duration
+
+November 2021 – June 2024
+
+Percentage
+
+73.82%
+
+------------------------------------------------------------
+
+TECHNICAL SKILLS
+
+Programming Languages
+
+Python
+
+Java
+
+C++
+
+JavaScript
+
+SQL
+
+------------------------------------------------------------
+
+Frontend
+
+HTML5
+
+CSS3
+
+Bootstrap 5
+
+Responsive Web Design
+
+JavaScript
+
+------------------------------------------------------------
+
+Backend
+
+Java
+
+REST APIs
+
+Flask (Basic)
+
+------------------------------------------------------------
+
+AI / Machine Learning
+
+Machine Learning
+
+Natural Language Processing
+
+Large Language Models (LLMs)
+
+
+
+------------------------------------------------------------
+
+Core Computer Science
+
+Data Structures & Algorithms
+
+Object-Oriented Programming
+
+Database Management Systems
+
+Problem Solving
+
+------------------------------------------------------------
+
+Developer Tools
+
+Git
+
+GitHub
+
+Docker
+
+VS Code
+
+------------------------------------------------------------
+
+PROFESSIONAL EXPERIENCE
+
+Frontend Intern
+
+Farmwish SIH
+
+Remote
+
+Responsibilities
+
+• Developed responsive web interfaces using HTML, CSS, and JavaScript.
+
+• Improved frontend layouts and user experience.
+
+• Collaborated with developers during testing, debugging, and code reviews.
+
+• Optimized frontend components for responsive design.
+
+Technologies
+
+HTML
+
+CSS
+
+Bootstrap
+
+JavaScript
+
+Git
+
+GitHub
+
+------------------------------------------------------------
+
+Java Full Stack Intern
+
+Briztech Infosystems Pvt. Ltd.
+
+Ranchi, Jharkhand
+
+Duration
+
+November 2023 – December 2023
+
+Responsibilities
+
+• Developed backend modules using Java and SQL.
+
+• Built REST APIs.
+
+• Implemented user authentication.
+
+• Integrated SQL databases.
+
+• Used Git and GitHub for collaboration.
+
+• Debugged and optimized application performance.
+
+Technologies
+
+Java
+
+SQL
+
+REST APIs
+
+Git
+
+GitHub
+
+------------------------------------------------------------
+
+PROJECTS
+
+Store Intelligence System
+
+AI-powered retail analytics system that analyzes customer movement and engagement using computer vision and CCTV footage.
+
+Features
+
+• Customer Movement Tracking
+
+• Retail Analytics
+
+• AI Dashboard
+
+• Business Insights
+
+• Computer Vision
+
+------------------------------------------------------------
+
+Authentication Module
+
+Developed a secure authentication system using Java and SQL.
+
+Features
+
+• User Registration
+
+• Login Authentication
+
+• REST APIs
+
+• SQL Database Integration
+
+------------------------------------------------------------
+
+SOFT SKILLS
+
+Problem Solving
+
+Team Collaboration
+
+Quick Learning
+
+Communication
+
+Adaptability
+
+Time Management
+
+------------------------------------------------------------
+
+CAREER INTERESTS
+
+Software Engineering
+
+Full Stack Development
+
+Artificial Intelligence
+
+Machine Learning
+
+Backend Development
+
+Problem Solving
+
+------------------------------------------------------------
+
+DECLARATION
+
+I hereby declare that the information provided above is true and correct to the best of my knowledge.
+
+------------------------------------------------------------
+
+END OF RESUME

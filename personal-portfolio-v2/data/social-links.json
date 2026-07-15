@@ -1,0 +1,32 @@
+[
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/saurabh",
+    "icon": "fa-github",
+    "color": "#24292e"
+  },
+  {
+    "platform": "LinkedIn",
+    "url": "https://linkedin.com/in/saurabh",
+    "icon": "fa-linkedin-in",
+    "color": "#0077b5"
+  },
+  {
+    "platform": "Twitter",
+    "url": "https://twitter.com/saurabh",
+    "icon": "fa-x-twitter",
+    "color": "#1da1f2"
+  },
+  {
+    "platform": "LeetCode",
+    "url": "https://leetcode.com/saurabh",
+    "icon": "fa-terminal",
+    "color": "#f89f1b"
+  },
+  {
+    "platform": "Email",
+    "url": "mailto:saurabh@example.com",
+    "icon": "fa-envelope",
+    "color": "#db4437"
+  }
+]

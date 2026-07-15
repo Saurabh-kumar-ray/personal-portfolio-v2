@@ -1,0 +1,70 @@
+[
+  {
+    "id": "event-orchestrator",
+    "title": "Distributed Event Orchestrator",
+    "category": "Systems",
+    "shortDescription": "A light-weight, highly available event orchestration engine designed to manage workflow DAGs at scale.",
+    "description": "An enterprise-grade workflow engine designed for fault-tolerant executions. Features dynamic routing, real-time telemetry, and structured retry policies. Supports high concurrency with persistent database storage backend.",
+    "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop",
+    "technologies": ["Go", "gRPC", "Redis", "PostgreSQL", "Docker", "Prometheus"],
+    "githubUrl": "https://github.com/saurabh/event-orchestrator",
+    "liveUrl": "https://github.com/saurabh/event-orchestrator",
+    "featured": true,
+    "highlights": [
+      "Process up to 10k execution DAGs per second",
+      "Real-time visual monitoring dashboard",
+      "Plug-and-play storage drivers (Redis, PostgreSQL, BoltDB)"
+    ]
+  },
+  {
+    "id": "saas-analytics",
+    "title": "Enterprise SaaS Analytics Dashboard",
+    "category": "Web Apps",
+    "shortDescription": "A real-time metrics monitoring dashboard with customized analytics widgets, automated alerting, and multi-tenant billing.",
+    "description": "A comprehensive customer analytics dashboard built with modular UI architecture. Aggregates data from multiple pipelines and provides fast, interactive visual tables and graphs.",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
+    "technologies": ["React", "TypeScript", "TailwindCSS", "Node.js", "GraphQL", "TimescaleDB"],
+    "githubUrl": "https://github.com/saurabh/saas-analytics",
+    "liveUrl": "https://github.com/saurabh/saas-analytics",
+    "featured": true,
+    "highlights": [
+      "Dynamic visual widgets using Chart.js & D3",
+      "Instant email and Slack alerts via Webhooks",
+      "Complete multi-tenant workspace management"
+    ]
+  },
+  {
+    "id": "k8s-operator",
+    "title": "Kubernetes Autoscaling Operator",
+    "category": "Cloud & DevOps",
+    "shortDescription": "A custom Kubernetes Operator written in Go to autoscale stateless pods based on custom queue lengths in RabbitMQ.",
+    "description": "A Kubernetes operator designed to dynamically scale processing nodes up or down according to broker queue sizes, optimizing infrastructure costs during off-peak hours.",
+    "imageUrl": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=600&auto=format&fit=crop",
+    "technologies": ["Go", "Kubernetes SDK", "Docker", "RabbitMQ", "Helm"],
+    "githubUrl": "https://github.com/saurabh/k8s-autoscaler-operator",
+    "liveUrl": "https://github.com/saurabh/k8s-autoscaler-operator",
+    "featured": false,
+    "highlights": [
+      "Reduces cloud node cost by 30% dynamically",
+      "Custom CRD (Custom Resource Definition) support",
+      "Comprehensive unit test suite mocking K8s API"
+    ]
+  },
+  {
+    "id": "markdown-blog",
+    "title": "Ultra-Fast Static Markdown Engine",
+    "category": "Open Source",
+    "shortDescription": "A blazingly fast markdown-to-HTML parser and static site generator written in Rust.",
+    "description": "A developer-focused static site generator focusing on building search-optimized portfolios, blogs, and manuals. Compiles thousands of pages in milliseconds.",
+    "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=600&auto=format&fit=crop",
+    "technologies": ["Rust", "Markdown Parser", "WebAssembly", "GitHub Actions"],
+    "githubUrl": "https://github.com/saurabh/static-rust-engine",
+    "liveUrl": "https://github.com/saurabh/static-rust-engine",
+    "featured": false,
+    "highlights": [
+      "Sub-millisecond compiling speeds",
+      "Full SEO tagging and dynamic sitemap generation built-in",
+      "Exports directly to Vercel/Netlify output targets"
+    ]
+  }
+]

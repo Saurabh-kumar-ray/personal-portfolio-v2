@@ -1,0 +1,36 @@
+SAURABH
+Staff Software Engineer & Solutions Architect
+saurabh@example.com | +1 (555) 019-2834 | San Francisco, CA
+
+SUMMARY
+Highly analytical and results-driven Staff Software Engineer with 8+ years of experience designing, building, and optimizing distributed systems, enterprise cloud applications, and responsive user experiences.
+
+EXPERIENCE
+Staff Software Engineer / Tech Lead
+TechInnovate Solutions (Jan 2023 - Present)
+- Architected event-driven microservices handling 15M+ daily requests, decreasing latency by 35%.
+- Migrated legacy monolith to a Kubernetes-based AWS ecosystem with zero downtime.
+- Developed component libraries, achieving 100% test coverage and WCAG compliance.
+
+Senior Full-Stack Engineer
+CloudForge Systems (Mar 2020 - Dec 2022)
+- Designed HIPAA-compliant RESTful APIs servicing over 500k monthly active users.
+- Built D3 data visualization dashboards, increasing customer engagement by 25%.
+- Implemented CI/CD workflows, cutting deploy times from 1 hour to 8 minutes.
+
+Software Engineer II
+PixelCraft Studios (Jun 2018 - Feb 2020)
+- Designed responsive interfaces with CSS Grid, Flexbox, and modular JavaScript.
+- Integrated payment gateways (Stripe, PayPal) to increase sales conversion by 15%.
+
+EDUCATION
+Master of Science in Computer Science
+Stanford University (2016 - 2018)
+
+Bachelor of Technology in Computer Science & Engineering
+Indian Institute of Technology (IIT), New Delhi (2012 - 2016)
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect - Professional
+- Certified Kubernetes Administrator (CKA)
+- MongoDB Certified Developer Associate

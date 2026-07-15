@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Winner - Global FinTech Hackathon",
+    "description": "Led an engineering team of 4 to design and build an AI-powered financial auditing tool, winning first place out of 180 international teams.",
+    "date": "Oct 2024",
+    "icon": "fa-trophy"
+  },
+  {
+    "title": "Author - 'Scaling WebSockets' Whitepaper",
+    "description": "Published a detailed technical paper on scaling socket connections to over 1 million concurrent users on AWS ECS, featured in Tech Journal.",
+    "date": "Aug 2023",
+    "icon": "fa-book-open"
+  },
+  {
+    "title": "Top Contributor - Open Source Go Frameworks",
+    "description": "Acknowledged as a top 5% outside code contributor to a highly popular open-source Go routing framework.",
+    "date": "2022 - 2024",
+    "icon": "fa-heart"
+  }
+]

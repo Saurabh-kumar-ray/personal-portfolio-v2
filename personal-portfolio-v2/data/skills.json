@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Languages",
+    "icon": "fa-code",
+    "skills": [
+      { "name": "Go", "level": 90 },
+      { "name": "JavaScript (ES6+)", "level": 95 },
+      { "name": "TypeScript", "level": 92 },
+      { "name": "Rust", "level": 70 },
+      { "name": "Python", "level": 80 },
+      { "name": "HTML5 / CSS3", "level": 95 }
+    ]
+  },
+  {
+    "category": "Frontend Frameworks",
+    "icon": "fa-laptop-code",
+    "skills": [
+      { "name": "React.js", "level": 92 },
+      { "name": "Next.js", "level": 88 },
+      { "name": "Vue.js", "level": 80 },
+      { "name": "Bootstrap 5", "level": 95 },
+      { "name": "TailwindCSS", "level": 90 }
+    ]
+  },
+  {
+    "category": "Backend & Cloud",
+    "icon": "fa-server",
+    "skills": [
+      { "name": "Node.js / Express", "level": 90 },
+      { "name": "gRPC / REST APIs", "level": 92 },
+      { "name": "AWS (S3, EC2, ECS, Lambda)", "level": 88 },
+      { "name": "Docker & Kubernetes", "level": 85 },
+      { "name": "Kafka / Event Pipelines", "level": 78 }
+    ]
+  },
+  {
+    "category": "Databases & Tools",
+    "icon": "fa-database",
+    "skills": [
+      { "name": "PostgreSQL", "level": 90 },
+      { "name": "MongoDB", "level": 85 },
+      { "name": "Redis Caching", "level": 88 },
+      { "name": "Git & CI/CD Pipelines", "level": 92 },
+      { "name": "Prometheus & Grafana", "level": 80 }
+    ]
+  }
+]

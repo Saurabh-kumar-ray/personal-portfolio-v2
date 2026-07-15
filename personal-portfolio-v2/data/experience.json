@@ -1,0 +1,45 @@
+[
+  {
+    "role": "Frontend Intern",
+    "company": "Farmwish SIH",
+    "location": "Remote",
+    "startDate": "2024",
+    "endDate": "2024",
+    "current": false,
+    "highlights": [
+      "Developed responsive user interfaces using HTML, CSS, Bootstrap, and JavaScript.",
+      "Improved website usability by optimizing layouts and frontend components.",
+      "Collaborated with team members during feature development, debugging, testing, and code reviews.",
+      "Worked on responsive web design to ensure compatibility across desktop and mobile devices."
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap 5",
+      "JavaScript",
+      "Git",
+      "GitHub"
+    ]
+  },
+  {
+    "role": "Java Full Stack Intern",
+    "company": "Briztech Infosystems Pvt. Ltd.",
+    "location": "Ranchi, Jharkhand",
+    "startDate": "Nov 2023",
+    "endDate": "Dec 2023",
+    "current": false,
+    "highlights": [
+      "Developed backend modules and REST APIs using Java and SQL.",
+      "Worked on user authentication, database integration, and core application logic.",
+      "Used Git and GitHub for version control and collaborative development.",
+      "Debugged and optimized application performance while following clean coding practices."
+    ],
+    "technologies": [
+      "Java",
+      "SQL",
+      "REST API",
+      "Git",
+      "GitHub"
+    ]
+  }
+]

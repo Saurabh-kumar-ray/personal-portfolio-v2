@@ -1,26 +1,34 @@
 @import "tailwindcss";
 
+/* Google Fonts configuration mapping from layout.tsx */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-heading: var(--font-outfit), "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: var(--font-inter), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Import modular CSS files */
+@import "./styles/variables.css";
+@import "./styles/layout.css";
+@import "./styles/components.css";
+@import "./styles/themes.css";
+@import "./styles/animations.css";
+@import "./styles/responsive.css";
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Base layout resets to match the original portfolio */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+
+/* Custom Tailwind Theme Config inline */
+@theme inline {
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-secondary: var(--accent-secondary);
 }

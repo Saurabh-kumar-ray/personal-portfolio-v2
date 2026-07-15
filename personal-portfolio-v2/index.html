@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Optimization Meta Tags -->
+    <title>Saurabh | Staff Software Engineer & Solutions Architect</title>
+    <meta
+      name="description"
+      content="Professional portfolio of Saurabh, a Staff Software Engineer & Solutions Architect specializing in scalable distributed systems, cloud computing, and high-performance full-stack web applications."
+    />
+    <meta
+      name="keywords"
+      content="Saurabh, Software Engineer, Solutions Architect, Portfolio, Web Developer, Full-Stack engineer, Distributed Systems, Go, React, AWS, Kubernetes"
+    />
+    <meta name="author" content="Saurabh" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Saurabh | Staff Software Engineer & Solutions Architect" />
+    <meta
+      property="og:description"
+      content="Explore my projects, engineering experiences, skills, and technical achievements."
+    />
+    <meta property="og:image" content="assets/images/profile-avatar.svg" />
+    <meta property="og:url" content="https://saurabh-portfolio-v2.vercel.app" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Saurabh | Staff Software Engineer & Solutions Architect" />
+    <meta
+      name="twitter:description"
+      content="Explore my projects, engineering experiences, skills, and technical achievements."
+    />
+    <meta name="twitter:image" content="assets/images/profile-avatar.svg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/profile-avatar.svg" />
+
+    <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Bootstrap 5 CSS Grid Utilities -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <!-- AOS (Animate on Scroll) CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- Custom Style Sheet (Modular CSS imports inside) -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Premium Ambient Neon Glow Blobs (Absolute Positioned Behind Content) -->
+    <div class="ambient-glows">
+      <div class="glow-blob glow-blob-1"></div>
+      <div class="glow-blob glow-blob-2"></div>
+      <div class="glow-blob glow-blob-3"></div>
+    </div>
+
+    <!-- Preloader / Loading Screen -->
+    <div id="preloader" class="preloader">
+      <div class="preloader-spinner"></div>
+      <div class="preloader-text">INITIALIZING</div>
+    </div>
+
+    <!-- Header & Sticky Navbar -->
+    <header>
+      <nav id="navbar" class="navbar-custom">
+        <div class="container navbar-container">
+          <a href="#" class="navbar-logo" id="logo-title">
+            <i class="fa-solid fa-code"></i> SAURABH<span>.</span>
+          </a>
+
+          <!-- Desktop Navigation Menu -->
+          <ul class="navbar-menu">
+            <li><a href="#hero" class="navbar-link active">Home</a></li>
+            <li><a href="#about" class="navbar-link">About</a></li>
+            <li><a href="#skills" class="navbar-link">Skills</a></li>
+            <li><a href="#experience" class="navbar-link">Experience</a></li>
+            <li><a href="#projects" class="navbar-link">Projects</a></li>
+            <li><a href="#contact" class="navbar-link">Contact</a></li>
+          </ul>
+
+          <div class="navbar-actions">
+            <!-- Theme Toggle Widget (Dark/Light mode) -->
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle visual theme">
+              <i class="fa-solid fa-moon"></i>
+              <i class="fa-solid fa-sun"></i>
+            </button>
+
+            <!-- Mobile Navigation Hamburger -->
+            <button
+              id="sidebar-toggle"
+              class="navbar-toggler-btn theme-toggle-btn d-lg-none"
+              aria-label="Toggle navigation drawer"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Mobile Navigation Sidebar Drawer -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    <div id="sidebar-drawer" class="sidebar-drawer">
+      <div class="sidebar-header">
+        <div class="navbar-logo"><i class="fa-solid fa-code"></i> SAURABH<span>.</span></div>
+        <button id="sidebar-close" class="sidebar-close-btn" aria-label="Close sidebar menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <ul class="sidebar-menu">
+        <li><a href="#hero" class="sidebar-link">Home</a></li>
+        <li><a href="#about" class="sidebar-link">About</a></li>
+        <li><a href="#skills" class="sidebar-link">Skills</a></li>
+        <li><a href="#experience" class="sidebar-link">Experience</a></li>
+        <li><a href="#projects" class="sidebar-link">Projects</a></li>
+        <li><a href="#contact" class="sidebar-link">Contact</a></li>
+      </ul>
+      <div class="sidebar-footer">
+        <p class="text-muted small">Connect with me</p>
+        <div id="sidebar-socials-container" class="sidebar-socials">
+          <!-- Social Icons injected dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="d-flex align-items-center min-vh-100 py-5">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7 text-center text-lg-start" data-aos="fade-right">
+              <span class="badge-custom badge-pulse mb-3">WELCOME TO MY DIGITAL WORKSPACE</span>
+              <h1 class="display-3 fw-bold mb-3">
+                Hi, I'm <span class="text-gradient" id="hero-name">Saurabh</span>
+              </h1>
+              <!-- Typed.js sub-header animations targets -->
+              <h2 class="h3 fw-semibold text-secondary mb-4 min-height-typed">
+                <span id="typed-subtitle"></span>
+              </h2>
+              <p class="lead text-secondary mb-5" id="hero-bio-short">
+                Architecting distributed cloud architectures and engineering robust, accessible,
+                full-stack user experiences.
+              </p>
+              <div
+                class="hero-buttons d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start"
+              >
+                <a href="#contact" class="btn-custom btn-primary-custom"
+                  >Get in Touch <i class="fa-solid fa-paper-plane"></i
+                ></a>
+                <a href="#projects" class="btn-custom btn-secondary-custom"
+                  >View My Work <i class="fa-solid fa-arrow-down"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-5 d-flex justify-content-center" data-aos="fade-left">
+              <div class="position-relative">
+                <div
+                  class="card-custom card-glass p-0 overflow-hidden"
+                  style="max-width: 320px; border-radius: 50%"
+                >
+                  <img
+                    id="profile-avatar-img"
+                    src="assets/images/profile-avatar.svg"
+                    alt="Saurabh Avatar"
+                    class="img-fluid"
+                    style="width: 320px; height: 320px; object-fit: cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="bg-secondary-opacity">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">A look into my engineering philosophy and journey.</p>
+          </div>
+          <div class="row g-5 align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+              <h3 class="mb-4">Engineering for Scalability & Accessibility</h3>
+              <p class="text-secondary mb-4" id="profile-bio-long">
+                Passionate full-stack developer specializing in container orchestration, responsive
+                frontends, and API performance integrations.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#" id="download-resume-btn" class="btn-custom btn-outline-custom" download>
+                  Download Resume <i class="fa-solid fa-file-arrow-down"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <div class="card-custom card-glass">
+                <h4 class="mb-4">
+                  <i class="fa-solid fa-circle-info text-gradient"></i> Core Details
+                </h4>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <span class="text-muted d-block small uppercase font-heading fw-semibold"
+                      >Email</span
+                    >
+                    <a href="#" id="about-email" class="fw-medium">saurabh@example.com</a>
+                  </div>
+                  <div class="col-sm-6">
+                    <span class="text-muted d-block small uppercase font-heading fw-semibold"
+                      >Phone</span
+                    >
+                    <span id="about-phone" class="fw-medium">+1 (555) 019-2834</span>
+                  </div>
+                  <div class="col-sm-6">
+                    <span class="text-muted d-block small uppercase font-heading fw-semibold"
+                      >Location</span
+                    >
+                    <span id="about-location" class="fw-medium">San Francisco, CA</span>
+                  </div>
+                  <div class="col-sm-6">
+                    <span class="text-muted d-block small uppercase font-heading fw-semibold"
+                      >Status</span
+                    >
+                    <span class="fw-medium d-inline-flex align-items-center gap-1">
+                      <span
+                        class="badge-custom"
+                        style="
+                          width: 8px;
+                          height: 8px;
+                          border-radius: 50%;
+                          padding: 0;
+                          background: #28a745;
+                        "
+                      ></span>
+                      Open to Opportunities
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Technical Expertise</h2>
+            <p class="section-subtitle">
+              My core skills and tech proficiencies categorised by domain.
+            </p>
+          </div>
+          <!-- Skills Mount point -->
+          <div id="skills-container" data-aos="fade-up"></div>
+        </div>
+      </section>
+
+      <!-- Experience & Education Timelines -->
+      <section id="experience" class="bg-secondary-opacity">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Career Timeline</h2>
+            <p class="section-subtitle">Professional experience and academic qualifications.</p>
+          </div>
+          <div class="row g-5">
+            <!-- Experience Timeline -->
+            <div class="col-lg-6" data-aos="fade-right">
+              <h3 class="mb-4 text-center text-lg-start">
+                <i class="fa-solid fa-briefcase text-gradient me-2"></i> Professional Experience
+              </h3>
+              <div id="experience-container" class="timeline-container">
+                <!-- JS Injected Timeline items -->
+              </div>
+            </div>
+            <!-- Education Timeline -->
+            <div class="col-lg-6" data-aos="fade-left">
+              <h3 class="mb-4 text-center text-lg-start">
+                <i class="fa-solid fa-graduation-cap text-gradient me-2"></i> Academic
+                Qualifications
+              </h3>
+              <div id="education-container" class="timeline-container">
+                <!-- JS Injected Education items -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Engineering Showcases</h2>
+            <p class="section-subtitle">
+              Recent projects, open source tools, and system implementations.
+            </p>
+          </div>
+          <!-- Category Filters -->
+          <ul id="project-filters-container" class="project-filters" data-aos="fade-up">
+            <li><button class="filter-btn active" data-filter="all">All Projects</button></li>
+            <!-- Injected dynamically based on project tags -->
+          </ul>
+          <!-- Projects Grid Mount point -->
+          <div id="projects-grid-container" class="projects-grid" data-aos="fade-up">
+            <!-- Dynamic Project Cards mount -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Credentials & Achievements Section (Combined) -->
+      <section id="credentials" class="bg-secondary-opacity">
+        <div class="container">
+          <div class="row g-5">
+            <!-- Certifications List -->
+            <div class="col-lg-6" data-aos="fade-right">
+              <h3 class="mb-4">
+                <i class="fa-solid fa-id-card text-gradient me-2"></i> Certifications
+              </h3>
+              <div id="certificates-container" class="row g-3">
+                <!-- Dynamic Credentials cards -->
+              </div>
+            </div>
+            <!-- Achievements Highlights -->
+            <div class="col-lg-6" data-aos="fade-left">
+              <h3 class="mb-4">
+                <i class="fa-solid fa-trophy text-gradient me-2"></i> Key Achievements
+              </h3>
+              <div id="achievements-container" class="row g-3">
+                <!-- Dynamic Achievements items -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GitHub Statistics & Coding Profiles -->
+      <section id="github-stats">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Open-Source Telemetry</h2>
+            <p class="section-subtitle">
+              Dynamic GitHub contributions, codebase statistics, and external coding profiles.
+            </p>
+          </div>
+          <!-- Stats widget -->
+          <div id="github-stats-container" class="github-stats-container" data-aos="fade-up">
+            <!-- Loaded via API / JS helper -->
+          </div>
+
+          <!-- Social Profiles list -->
+          <div class="mt-5 text-center" data-aos="fade-up">
+            <h3 class="mb-4 h5 font-heading">Find me on other coding platforms:</h3>
+            <div
+              id="coding-profiles-container"
+              class="d-flex justify-content-center flex-wrap gap-3"
+            >
+              <!-- Dynamic profile badges (LeetCode, etc.) -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form Section -->
+      <section id="contact" class="bg-secondary-opacity">
+        <div class="container">
+          <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project or want to collaborate? Send a message.</p>
+          </div>
+
+          <!-- Alert Banner Mount Point -->
+          <div id="contact-alert-container" style="max-width: 650px; margin: 0 auto"></div>
+
+          <form id="contact-form" class="contact-form" data-aos="fade-up" novalidate>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label for="contact-name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  id="contact-name"
+                  class="form-control-custom"
+                  placeholder="Alex Morgan"
+                  required
+                />
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="col-md-6 form-group">
+                <label for="contact-email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  id="contact-email"
+                  class="form-control-custom"
+                  placeholder="alex@example.com"
+                  required
+                />
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject" class="form-label">Subject</label>
+              <input
+                type="text"
+                id="contact-subject"
+                class="form-control-custom"
+                placeholder="Project Collaboration Proposal"
+                required
+              />
+              <div class="invalid-feedback">Please enter a subject.</div>
+            </div>
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message</label>
+              <textarea
+                id="contact-message"
+                class="form-control-custom"
+                placeholder="Hi Saurabh, I would love to discuss..."
+                required
+              ></textarea>
+              <div class="invalid-feedback">Please enter your message.</div>
+            </div>
+            <div class="text-center mt-4">
+              <button type="submit" id="contact-submit-btn" class="btn-custom btn-primary-custom">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h2 class="footer-brand-title navbar-logo">
+              <i class="fa-solid fa-code"></i> SAURABH<span>.</span>
+            </h2>
+            <p class="footer-brand-text" id="footer-bio-short">
+              Designing modular systems, building accessible frontends, and deploying cost-efficient
+              solutions.
+            </p>
+          </div>
+          <div>
+            <h3 class="footer-links-title">Quick Links</h3>
+            <ul class="footer-links-list">
+              <li><a href="#hero" class="footer-link">Home</a></li>
+              <li><a href="#about" class="footer-link">About</a></li>
+              <li><a href="#skills" class="footer-link">Skills</a></li>
+              <li><a href="#experience" class="footer-link">Experience</a></li>
+              <li><a href="#projects" class="footer-link">Projects</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-links-title">Contact Channels</h3>
+            <ul class="footer-links-list">
+              <li>
+                <i class="fa-solid fa-envelope me-2 text-gradient"></i>
+                <span id="footer-email">saurabh@example.com</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone me-2 text-gradient"></i>
+                <span id="footer-phone">+1 (555) 019-2834</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot me-2 text-gradient"></i>
+                <span id="footer-location">San Francisco, CA</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            &copy; 2026 Saurabh. All Rights Reserved. Built with Bootstrap 5 & Vanilla JS.
+          </p>
+          <div id="footer-socials-container" class="d-flex gap-3">
+            <!-- Dynamic footer socials -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Scroll back to top of the page">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Library Scripts (CDNs) -->
+    <!-- AOS (Animate on Scroll) JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Typed.js (Typing animation) -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Core Javascript Modules (Dynamic initialization) -->
+    <!-- Loading theme state before page renders to prevent layout flashes -->
+    <script>
+      (function () {
+        const theme = localStorage.getItem("portfolio-theme") || "dark"; // default dark theme
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+
+    <!-- main.js bootstraps dynamic data imports -->
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
+</html>

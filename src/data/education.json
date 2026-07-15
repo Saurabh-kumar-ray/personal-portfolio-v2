@@ -1,0 +1,24 @@
+[
+  {
+    "degree": "Bachelor of Technology (B.Tech), Computer Science & Engineering",
+    "institution": "Dr. Akhilesh Das Gupta Institute of Professional Studies",
+    "location": "Delhi, India",
+    "startDate": "Aug 24",
+    "endDate": "Jun 27",
+    "details": [
+      "Current CGPA: 8.83 / 10",
+      "Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Software Engineering, Artificial Intelligence"
+    ]
+  },
+  {
+    "degree": "Diploma, Computer Science & Engineering",
+    "institution": "Jharkhand University of Technology (JUT)",
+    "location": "Jharkhand, India",
+    "startDate": "Nov 21",
+    "endDate": "Jun 24",
+    "details": [
+      "Final Percentage: 73.82%",
+      "Specialization in foundational computing, algorithms, database operations, and software frameworks"
+    ]
+  }
+]

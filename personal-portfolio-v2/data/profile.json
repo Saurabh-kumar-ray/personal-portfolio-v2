@@ -1,0 +1,19 @@
+{
+  "name": "Saurabh",
+  "title": "Staff Software Engineer & Solutions Architect",
+  "subtitles": [
+    "Building Scalable Cloud Architectures",
+    "Full-Stack Web Engineering Expert",
+    "Specialist in High-Performance Distributed Systems",
+    "Open-Source Contributor & Tech Lead"
+  ],
+  "email": "saurabh@example.com",
+  "phone": "+1 (555) 019-2834",
+  "location": "San Francisco, CA",
+  "bioShort": "Highly analytical and results-driven Staff Software Engineer with 8+ years of experience designing, building, and optimizing distributed systems, enterprise cloud applications, and responsive user experiences.",
+  "bioLong": "I am a Staff Software Engineer and Solutions Architect passionate about solving complex system design challenges and delivering high-performance, robust, and accessible digital products. Over the past decade, I have led engineering teams in designing microservices architectures, optimizing cloud infrastructure costs by up to 40%, and standardizing clean frontend platforms. I thrive at the intersection of business strategy and deep technical execution, ensuring codebases remain modular, accessible, and easily maintainable. When I am not designing APIs or writing CSS animations, I contribute to open-source projects and mentor junior developers.",
+  "avatarUrl": "assets/images/profile-avatar.svg",
+  "resumeUrl": "assets/documents/Saurabh_Resume.txt",
+  "tawkPropertyId": "default_property_id",
+  "tawkWidgetId": "default_widget_id"
+}

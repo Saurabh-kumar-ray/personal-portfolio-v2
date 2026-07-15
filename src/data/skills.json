@@ -1,0 +1,43 @@
+[
+  {
+    "category": "Programming Languages",
+    "icon": "fa-code",
+    "skills": [
+      { "name": "Python", "level": 85 },
+      { "name": "Java", "level": 80 },
+      { "name": "C++", "level": 75 },
+      { "name": "JavaScript", "level": 80 },
+      { "name": "SQL", "level": 82 }
+    ]
+  },
+  {
+    "category": "Frontend & Design",
+    "icon": "fa-laptop-code",
+    "skills": [
+      { "name": "HTML5 & CSS3", "level": 88 },
+      { "name": "Bootstrap 5", "level": 85 },
+      { "name": "Responsive Web Design", "level": 85 }
+    ]
+  },
+  {
+    "category": "Backend & AI/ML",
+    "icon": "fa-server",
+    "skills": [
+      { "name": "REST APIs", "level": 80 },
+      { "name": "Flask (Basic)", "level": 70 },
+      { "name": "Machine Learning", "level": 75 },
+      { "name": "Natural Language Processing (NLP)", "level": 70 },
+      { "name": "Large Language Models (LLMs)", "level": 65 }
+    ]
+  },
+  {
+    "category": "CS Foundations & Tools",
+    "icon": "fa-screwdriver-wrench",
+    "skills": [
+      { "name": "Data Structures & Algorithms", "level": 80 },
+      { "name": "Object-Oriented Programming", "level": 82 },
+      { "name": "Git & GitHub", "level": 85 },
+      { "name": "Docker", "level": 60 }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "personal-portfolio-v2",
+  "version": "2.0.0",
+  "description": "Enterprise-Grade Personal Portfolio Website v2",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server ./ -p 3000 -c-1",
+    "start": "npx http-server ./ -p 3000 -c-1",
+    "format": "npx prettier --write .",
+    "format:check": "npx prettier --check ."
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "resume",
+    "bootstrap5",
+    "vanilla-js"
+  ],
+  "author": "Saurabh",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^3.2.5"
+  }
+}

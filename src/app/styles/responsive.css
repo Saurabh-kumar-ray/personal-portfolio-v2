@@ -1,0 +1,145 @@
+/* Responsive Layouts & Breakpoint Overrides */
+
+/* Large screens & Desktops (min-width: 992px) */
+@media (min-width: 992px) {
+  .navbar-toggler-btn {
+    display: none; /* Hide hamburger menu on desktop */
+  }
+}
+
+/* Tablets and below (max-width: 991px) */
+@media (max-width: 991px) {
+  /* Layout Spacing */
+  :root {
+    --section-padding: 4rem 0;
+    --card-padding: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  /* Navigation overrides */
+  .navbar-menu {
+    display: none; /* Hide standard inline menu */
+  }
+
+  /* Footer Layout override */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-brand {
+    max-width: 100%;
+  }
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Section elements spacing */
+  .section-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+
+  /* Experience & Education Timelines */
+  .timeline-container {
+    padding-left: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .timeline-dot {
+    left: -1.95rem;
+    width: 12px;
+    height: 12px;
+    top: 6px;
+  }
+
+  .timeline-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline-date {
+    font-size: 0.85rem;
+  }
+
+  .timeline-location {
+    font-size: 0.85rem;
+  }
+
+  /* Projects Filter buttons list centering */
+  .project-filters {
+    justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .filter-btn {
+    padding: 0.4rem 1.1rem;
+    font-size: 0.9rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr; /* Stack cards vertically */
+    gap: 1.5rem;
+  }
+
+  /* GitHub widgets layouts */
+  .github-stats-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .github-stat-card {
+    padding: 1.25rem;
+  }
+
+  .github-stat-number {
+    font-size: 1.8rem;
+  }
+
+  /* Footer copyrights alignment */
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+
+/* Small Screen Adjustments (max-width: 480px) */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .navbar-logo {
+    font-size: 1.3rem;
+  }
+
+  .btn-custom {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+    width: 100%; /* Force buttons full-width for easier touch points */
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+}

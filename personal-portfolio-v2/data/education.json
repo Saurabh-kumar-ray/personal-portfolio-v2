@@ -1,0 +1,26 @@
+[
+  {
+    "degree": "Master of Science in Computer Science",
+    "institution": "Stanford University",
+    "location": "Stanford, CA",
+    "startDate": "Sep 2016",
+    "endDate": "June 2018",
+    "details": [
+      "Specialization in Distributed Systems and Cloud Computing",
+      "Graduate Teaching Assistant for Advanced Operating Systems",
+      "GPA: 3.92 / 4.00"
+    ]
+  },
+  {
+    "degree": "Bachelor of Technology in Computer Science & Engineering",
+    "institution": "Indian Institute of Technology (IIT)",
+    "location": "New Delhi, India",
+    "startDate": "Aug 2012",
+    "endDate": "May 2016",
+    "details": [
+      "Graduated with Distinction; Merit Scholarship recipient",
+      "Completed undergraduate thesis on Peer-to-Peer network efficiency optimizations",
+      "Organized the annual campus technical symposium hackathon"
+    ]
+  }
+]

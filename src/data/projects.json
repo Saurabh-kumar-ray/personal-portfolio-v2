@@ -1,0 +1,36 @@
+[
+  {
+    "id": "store-intelligence",
+    "title": "Store Intelligence System",
+    "category": "AI / Machine Learning",
+    "shortDescription": "An AI-powered retail analytics platform utilizing computer vision to track customer movement and measure engagement.",
+    "description": "Designed and developed an artificial intelligence retail analytics engine that processes security CCTV footage. Features include real-time customer movement tracking, heatmaps, store traffic analytics, and business insights to optimize product layouts and measure customer path engagement.",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600&auto=format&fit=crop",
+    "technologies": ["Python", "Computer Vision", "Machine Learning", "Flask", "Bootstrap 5", "SQL"],
+    "githubUrl": "https://github.com/Saurabh-kumar-ray",
+    "liveUrl": "",
+    "featured": true,
+    "highlights": [
+      "Real-time customer movement tracking and navigation paths",
+      "Interactive analytics dashboard displaying store heatmaps and visitor trends",
+      "Actionable business intelligence reporting to increase sales conversion"
+    ]
+  },
+  {
+    "id": "auth-module",
+    "title": "Secure Authentication Module",
+    "category": "Backend Systems",
+    "shortDescription": "A robust user authentication backend module written in Java featuring relational database integrations and REST APIs.",
+    "description": "Engineered a secure user sign-up and login credential processing module. Implemented encryption protocols, built REST API routing controllers for session tokens, and integrated structured SQL relational database management systems for user table configurations.",
+    "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=600&auto=format&fit=crop",
+    "technologies": ["Java", "SQL", "REST APIs", "Git", "GitHub"],
+    "githubUrl": "https://github.com/Saurabh-kumar-ray",
+    "liveUrl": "",
+    "featured": true,
+    "highlights": [
+      "Encrypted user registration and database-backed login validation",
+      "RESTful API endpoints for easy frontend web integration",
+      "Structured SQL schemas mapping users, permissions, and audit logs"
+    ]
+  }
+]
