@@ -9,6 +9,7 @@ export default function ThemeToggle() {
     // Sync initial state on component load
     const savedTheme = localStorage.getItem("portfolio-theme") || "dark";
     setTheme(savedTheme);
+    document.documentElement.setAttribute("data-theme", savedTheme);
   }, []);
 
   const toggleTheme = () => {

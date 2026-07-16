@@ -54,6 +54,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${inter.variable} ${outfit.variable}`}
+      data-theme="dark"
       suppressHydrationWarning
     >
       <head>
