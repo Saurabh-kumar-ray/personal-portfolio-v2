@@ -53,7 +53,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${outfit.variable} h-full`}
+      className={`${inter.variable} ${outfit.variable}`}
       suppressHydrationWarning
     >
       <head>
@@ -63,6 +63,12 @@ export default function RootLayout({
             __html: `(function(){try{var t=localStorage.getItem("portfolio-theme")||"dark";document.documentElement.setAttribute("data-theme",t)}catch(e){}})()`,
           }}
         />
+        {/* Bootstrap 5 CSS Grid & Layout Utilities */}
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          precedence="default"
+        />
         {/* Font Awesome Icons */}
         <link
           rel="stylesheet"
@@ -70,7 +76,7 @@ export default function RootLayout({
           precedence="default"
         />
       </head>
-      <body className="min-h-full flex flex-col antialiased">
+      <body className="min-h-screen flex flex-col antialiased">
         {children}
       </body>
     </html>

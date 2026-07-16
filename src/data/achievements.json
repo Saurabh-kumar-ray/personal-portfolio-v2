@@ -1,20 +1,20 @@
 [
   {
-    "title": "Winner - Global FinTech Hackathon",
-    "description": "Led an engineering team of 4 to design and build an AI-powered financial auditing tool, winning first place out of 180 international teams.",
-    "date": "Oct 2024",
+    "title": "Purplle Tech Challenge 2026 - Round 2 Qualifier",
+    "description": "Qualified for Round 2 of the Purplle Tech Challenge and developed an AI-powered Store Intelligence System using computer vision and analytics.",
+    "date": "2026",
     "icon": "fa-trophy"
   },
   {
-    "title": "Author - 'Scaling WebSockets' Whitepaper",
-    "description": "Published a detailed technical paper on scaling socket connections to over 1 million concurrent users on AWS ECS, featured in Tech Journal.",
-    "date": "Aug 2023",
-    "icon": "fa-book-open"
+    "title": "Built and Deployed Personal Portfolio",
+    "description": "Designed, developed, and deployed a production-ready personal portfolio using Next.js, Bootstrap, GitHub, and Vercel with responsive UI and SEO optimization.",
+    "date": "2026",
+    "icon": "fa-code"
   },
   {
-    "title": "Top Contributor - Open Source Go Frameworks",
-    "description": "Acknowledged as a top 5% outside code contributor to a highly popular open-source Go routing framework.",
-    "date": "2022 - 2024",
-    "icon": "fa-heart"
+    "title": "Active DSA & Software Engineering Learner",
+    "description": "Consistently solving Data Structures and Algorithms problems while strengthening Full Stack Development, Git, and modern software engineering practices.",
+    "date": "2025 - Present",
+    "icon": "fa-laptop-code"
   }
 ]

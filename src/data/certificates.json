@@ -1,26 +1,17 @@
 [
   {
-    "name": "AWS Certified Solutions Architect – Professional",
-    "issuer": "Amazon Web Services (AWS)",
-    "issueDate": "Mar 2024",
-    "expiryDate": "Mar 2027",
-    "credentialId": "AWS-SAP-9812",
-    "credentialUrl": "https://aws.amazon.com/verification"
+    "name": "Currently Preparing for AWS Cloud Practitioner",
+    "issuer": "Self Learning",
+    "status": "In Progress"
   },
   {
-    "name": "Certified Kubernetes Administrator (CKA)",
-    "issuer": "The Linux Foundation",
-    "issueDate": "Nov 2023",
-    "expiryDate": "Nov 2026",
-    "credentialId": "CKA-7731-098",
-    "credentialUrl": "https://www.cncf.io/certification/cka/"
+    "name": "Currently Preparing for HackerRank Python Certification",
+    "issuer": "HackerRank",
+    "status": "In Progress"
   },
   {
-    "name": "MongoDB Certified Developer Associate",
-    "issuer": "MongoDB",
-    "issueDate": "May 2022",
-    "expiryDate": "Lifetime",
-    "credentialId": "MDB-9901-DEV",
-    "credentialUrl": "https://university.mongodb.com/"
+    "name": "Currently Preparing for GitHub Foundations",
+    "issuer": "GitHub",
+    "status": "Planned"
   }
 ]

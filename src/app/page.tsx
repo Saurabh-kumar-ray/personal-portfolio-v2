@@ -34,6 +34,8 @@ export default function Home() {
   const githubLink = socialLinks.find((s) => s.platform === "GitHub");
   const codingProfiles = socialLinks.filter((s) => ["GitHub", "LeetCode"].includes(s.platform));
 
+
+
   return (
     <>
       {/* AOS scroll animations initializer client element */}
@@ -85,16 +87,13 @@ export default function Home() {
               </div>
               {avatarUrl && (
                 <div className="col-lg-5 d-flex justify-content-center" data-aos="fade-left">
-                  <div className="position-relative">
-                    <div
-                      className="card-custom card-glass p-0 overflow-hidden"
-                      style={{ maxWidth: "320px", borderRadius: "50%" }}
-                    >
+                  <div className="hero-avatar-container">
+                    <div className="hero-avatar-glow"></div>
+                    <div className="hero-avatar-card">
                       <img
                         src={avatarUrl}
                         alt={`${profile.name} Avatar`}
-                        className="img-fluid"
-                        style={{ width: "320px", height: "320px", objectFit: "cover" }}
+                        className="hero-avatar-img"
                       />
                     </div>
                   </div>
