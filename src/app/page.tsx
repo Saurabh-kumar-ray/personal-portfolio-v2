@@ -59,11 +59,17 @@ export default function Home() {
       <main className="flex-grow">
         {/* Hero Section */}
         <section id="hero" className="d-flex align-items-center min-vh-100 py-5">
-          <div className="container">
+          {/* Background Grid Pattern & Radial Glow Blobs */}
+          <div className="hero-grid-pattern"></div>
+          <div className="hero-bg-glow"></div>
+
+          <div className="container position-relative" style={{ zIndex: 2 }}>
             <div className="row align-items-center g-5">
               <div className="col-lg-7 text-center text-lg-start" data-aos="fade-right">
-                <span className="badge-custom badge-pulse mb-3">WELCOME TO MY DIGITAL WORKSPACE</span>
-                <h1 className="display-3 fw-bold mb-3">
+                <span className="badge-hero mb-3">
+                  <span className="badge-pulse-dot"></span> Welcome to my digital workspace
+                </span>
+                <h1 className="hero-title fw-bold mb-3">
                   Hi, I&apos;m <span className="text-gradient">{profile.name}</span>
                 </h1>
                 
@@ -87,13 +93,18 @@ export default function Home() {
               </div>
               {avatarUrl && (
                 <div className="col-lg-5 d-flex justify-content-center" data-aos="fade-left">
-                  <div className="hero-avatar-container">
-                    <div className="hero-avatar-glow"></div>
-                    <div className="hero-avatar-card">
+                  <div className="mac-window-frame">
+                    <div className="mac-window-header">
+                      <span className="window-dot dot-red"></span>
+                      <span className="window-dot dot-yellow"></span>
+                      <span className="window-dot dot-green"></span>
+                      <span className="window-title">workspace.tsx</span>
+                    </div>
+                    <div className="mac-window-content">
                       <img
-                        src={avatarUrl}
-                        alt={`${profile.name} Avatar`}
-                        className="hero-avatar-img"
+                        src="/assets/images/hero-illustration.png"
+                        alt="Developer Workspace"
+                        className="hero-illustration-img"
                       />
                     </div>
                   </div>

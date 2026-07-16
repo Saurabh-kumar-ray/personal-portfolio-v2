@@ -19,6 +19,10 @@
     font-size: 2.2rem;
   }
 
+  .hero-title {
+    font-size: 3.2rem;
+  }
+
   /* Navigation overrides */
   .navbar-menu {
     display: none; /* Hide standard inline menu */
@@ -48,6 +52,10 @@
 
   .section-subtitle {
     font-size: 0.95rem;
+  }
+
+  .hero-title {
+    font-size: 2.6rem;
   }
 
   /* Experience & Education Timelines */
@@ -136,6 +144,10 @@
     padding: 0.75rem 1.5rem;
     font-size: 0.9rem;
   }
+
+  .hero-title {
+    font-size: 2.3rem;
+  }
 }
 
 /* Small Screen Adjustments (max-width: 480px) */
@@ -147,12 +159,15 @@
   .navbar-logo {
     font-size: 1.3rem;
   }
+
+  .hero-title {
+    font-size: 2rem;
+  }
 }
 
 /* Very Small Screens (max-width: 360px) */
 @media (max-width: 360px) {
-  .hero-avatar-container {
-    width: 260px !important;
-    height: 260px !important;
+  .mac-window-frame {
+    max-width: 270px !important;
   }
 }
